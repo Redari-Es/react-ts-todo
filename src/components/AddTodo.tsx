@@ -6,7 +6,6 @@ import toast from 'react-hot-toast'
 const AddTodo = () => {
     const [input, setInput] = useState<string>('')
     const inputRef = useRef<HTMLInputElement>(null)
-    const [todos, setTodos] = useState<string[]>([])
 
     const { addTodo } = useTodo()
 

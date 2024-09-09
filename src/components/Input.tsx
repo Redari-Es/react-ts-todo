@@ -1,4 +1,4 @@
-import React, { InputHTMLAttributes, forwardRef } from 'react'
+import { InputHTMLAttributes, forwardRef } from 'react'
 import cn from 'classnames'
 
 const Input = forwardRef<HTMLInputElement, InputHTMLAttributes<HTMLInputElement>>(({ className, ...rest }, ref) => {
