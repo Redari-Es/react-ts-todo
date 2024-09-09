@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTodo } from '../context/useTodo'
 import { SiStarship } from 'react-icons/si'
 import { motion } from 'framer-motion'
